@@ -1,0 +1,10 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: xjp-cloud-api
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
