@@ -5,20 +5,13 @@
 
     <parent>
         <groupId>com.xuejingpan</groupId>
-        <artifactId>xjp-cloud</artifactId>
+        <artifactId>xjp-cloud-common</artifactId>
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>xjp-cloud-common</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>xjp-cloud-common-security</artifactId>
 
-    <name>common</name>
+    <name>security</name>
     <description>Demo project for Spring Boot</description>
 
-    <modules>
-        <module>core</module>
-        <module>log</module>
-        <module>swagger</module>
-        <module>security</module>
-    </modules>
 </project>

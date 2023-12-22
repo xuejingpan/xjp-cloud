@@ -12,6 +12,13 @@
     <artifactId>xjp-cloud-common-core</artifactId>
 
     <name>core</name>
-    <description>Demo project for Spring Boot</description>
+    <description>xjp-cloud公共部分核心模块</description>
 
+    <dependencies>
+        <!-- servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+    </dependencies>
 </project>
