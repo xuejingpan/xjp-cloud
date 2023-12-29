@@ -14,4 +14,11 @@
     <name>security</name>
     <description>Demo project for Spring Boot</description>
 
+    <dependencies>
+        <!-- 工具类核心包 -->
+        <dependency>
+            <groupId>com.xuejingpan</groupId>
+            <artifactId>xjp-cloud-common-core</artifactId>
+        </dependency>
+    </dependencies>
 </project>

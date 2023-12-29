@@ -16,4 +16,9 @@ public interface Headers {
      * Trace-Id
      */
     String TRACE_ID = "Trace-Id";
+
+    /**
+     * 来源
+     */
+    String FROM = "From";
 }
