@@ -67,13 +67,6 @@
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
-            <!-- lombok -->
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
-                <optional>true</optional>
-            </dependency>
             <!-- 工具类核心包 -->
             <dependency>
                 <groupId>com.xuejingpan</groupId>
@@ -84,6 +77,13 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
         <!-- bootstrap启动器 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
